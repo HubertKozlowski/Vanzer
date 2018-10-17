@@ -1,0 +1,26 @@
+.portfolio_main_box {
+	background:
+		linear-gradient(
+	      rgba(27.5, 27.5, 27.5, 0.9),
+	      rgba(27.5, 27.5, 27.5, 0.9)
+	    ),
+		url('./bridge.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+	.portfolio_row {
+		height: 400px;
+		display: flex;
+		justify-content: space-between;
+
+		.portfolio_col-1-4 {
+			flex-grow: 1;
+			height: 100%;
+			border: 1px solid black;
+			margin: 0 15px;
+		}
+
+	}
+
+}

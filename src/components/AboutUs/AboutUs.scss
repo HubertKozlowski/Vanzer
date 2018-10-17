@@ -1,0 +1,19 @@
+.about_main_box {
+
+	.about_small_image {
+		height: 300px;
+		width: 300px;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	}
+
+	.image_laptop {
+		background-image: url(./laptop.png);
+		background-position: left;
+	}
+
+	.image_coffee {
+		background-image: url(./coffee.png);
+		background-position: right;
+	}
+}

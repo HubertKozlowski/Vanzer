@@ -1,11 +1,46 @@
+@import './components/AboutUs/AboutUs.scss';
+@import './components/Blog/Blog.scss';
+@import './components/Contact/Contact.scss';
+@import './components/Portfolio/Portfolio.scss';
+@import './components/Services/Services.scss';
+@import './components/Welcome/Welcome.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-	background: yellow;
+	// font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
+}
 
-	h1 {
-		color: red;
+.container {
+  max-width: 860px;
+  padding: 0 15px;
+  margin: 0 auto;
+	border: 1px solid black;
+}
 
-		&:hover {
-			color: blue;
-		}
+.uppercase {
+	text-transform: uppercase;
+}
+
+.main_box {
+	height: 830px;
+	width: 100%;
+	border: 1px solid black;
+}
+
+.hero_text{
+	// position: relative;
+	// top: 50%;
+	// left: 15%;
+	// transform: translateY(-50%);
+
+	h2 {
+		font-size: 50px;
+		letter-spacing: 25px;
 	}
 }
