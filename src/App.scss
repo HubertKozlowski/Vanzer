@@ -12,15 +12,14 @@
 }
 
 body {
-	// font-family: 'Open Sans', sans-serif;
 	font-family: 'Raleway', sans-serif;
+	letter-spacing: 2px;
 }
 
 .container {
   max-width: 860px;
   padding: 0 15px;
   margin: 0 auto;
-	border: 1px solid black;
 }
 
 .uppercase {
@@ -30,17 +29,4 @@ body {
 .main_box {
 	height: 830px;
 	width: 100%;
-	border: 1px solid black;
-}
-
-.hero_text{
-	// position: relative;
-	// top: 50%;
-	// left: 15%;
-	// transform: translateY(-50%);
-
-	h2 {
-		font-size: 50px;
-		letter-spacing: 25px;
-	}
 }

@@ -1,19 +1,82 @@
 .about_main_box {
 
+	.about_hero_text {
+		position: relative;
+		top: 351px;
+		z-index: 1;
+
+		h2 {
+			color: #000;
+			font-size: 50px;
+			letter-spacing: 20px;
+
+			span {
+				color: #EC5228;
+			}
+
+		}
+
+		p {
+			color: #A9A9A9;
+			font-size: 10px;
+			letter-spacing: 2px;
+			margin-top: 190px;
+			width: 450px;
+			margin-left: 75px;
+			line-height: 20px;
+
+			&:after {
+				content:"";
+				position: relative;
+			  width: 300px;
+			  border: 1px solid #A9A9A9;
+			  display: block;
+				top: -85px;
+			}
+		}
+	}
+
 	.about_small_image {
 		height: 300px;
 		width: 300px;
 	  background-repeat: no-repeat;
 	  background-size: cover;
+		position: relative;
+		top: -249px;
 	}
 
 	.image_laptop {
 		background-image: url(./laptop.png);
 		background-position: left;
+		left: 325px;
+		top: -105px;
 	}
 
 	.image_coffee {
 		background-image: url(./coffee.png);
 		background-position: right;
+		float: right;
+	}
+
+	.about_letter_A {
+		position: relative;
+		font-size: 820px;
+		font-weight: 900;
+		display: inline-block;
+		left: -5%;
+		bottom: 700px;
+		color: #FAFAFA;
+	}
+
+	.about_about_us {
+		font-size: 200px;
+		position: relative;
+		font-weight: 900;
+		display: inline-block;
+		text-transform: uppercase;
+		letter-spacing: 80px;
+		left: 70%;
+		bottom: 1475px;
+		color: #FAFAFA;
 	}
 }
