@@ -1,11 +1,97 @@
 .services_main_box {
 	background:
 		linear-gradient(
-	      rgba(27.5, 27.5, 27.5, 0.9),
-	      rgba(27.5, 27.5, 27.5, 0.9)
+	      rgba(27.5, 27.5, 27.5, 0.8),
+	      rgba(27.5, 27.5, 27.5, 0.8)
 	    ),
 		url('./camera.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+	padding-top: 240px;
+
+	.hero_text {
+		margin-left: 40px;
+
+		h3 {
+			font-size: 30px;
+			letter-spacing: 15px;
+			color: #F7F7F7;
+
+			&:after {
+				content:"";
+				position: relative;
+			  width: 300px;
+			  border: 1px solid #EC5228;
+			  display: block;
+				top: 33px;
+			}
+		}
+
+		ul {
+			margin-top: 115px;
+
+			li {
+				list-style: none;
+
+				a {
+					text-decoration: none;
+					color: #737373;
+					font-size: 18px;
+					font-weight: bold;
+					letter-spacing: 6px;
+					line-height: 45px;
+
+					&:hover {
+						color: #B0B0B0;
+					}
+				}
+			}
+		}
+	}
+
+	.service_description {
+		margin-top: 100px;
+		float: right;
+
+		span {
+			font-size: 80px;
+			position: relative;
+			font-weight: 800;
+			color: rgba(#EC5228, 0.4);
+			bottom: 50px;
+			left: 25px;
+		}
+
+		.service_box{
+			display: inline-block;
+
+			h4 {
+				z-index: 1;
+				color: #B0B0B0;
+				font-size: 16px;
+				letter-spacing: 4px;
+			}
+
+			p {
+				color: #737373;
+				width: 300px;
+				font-size: 10px;
+				line-height: 20px;
+				margin-top: 10px;
+				font-weight: 700;
+			}
+		}
+	}
+
+	.services_text {
+		font-size: 200px;
+		position: relative;
+		font-weight: 800;
+		float: right;
+		text-transform: uppercase;
+		letter-spacing: 80px;
+		bottom: 620px;
+		color: rgba(#4c4c4c, 0.8)
+	}
 }

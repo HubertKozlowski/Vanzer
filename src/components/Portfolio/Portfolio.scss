@@ -1,24 +1,112 @@
 .portfolio_main_box {
 	background:
 		linear-gradient(
-	      rgba(27.5, 27.5, 27.5, 0.9),
-	      rgba(27.5, 27.5, 27.5, 0.9)
+	      rgba(27.5, 27.5, 27.5, 0.8),
+	      rgba(27.5, 27.5, 27.5, 0.8)
 	    ),
 		url('./bridge.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+	padding-top: 180px;
+
+	h3 {
+		font-size: 30px;
+		letter-spacing: 15px;
+		color: #F7F7F7;
+		margin-left: 15px;
+
+		&:after {
+			content:"";
+			position: relative;
+		  width: 300px;
+		  border: 1px solid #EC5228;
+		  display: block;
+			top: 33px;
+		}
+	}
 
 	.portfolio_row {
 		height: 400px;
 		display: flex;
 		justify-content: space-between;
+		margin-top: 77px;
 
 		.portfolio_col-1-4 {
 			flex-grow: 1;
 			height: 100%;
 			border: 1px solid black;
 			margin: 0 15px;
+		}
+
+		.col-1,
+		.col-2,
+		.col-3 {
+			width: 200px;
+		}
+
+		.col-1 {
+
+			// .smaller_image {
+			// 	// width: 100%;
+			// 	// height: 200px;
+			// 	height: 100%;
+			// 	background: url('./machine.png');
+			//   background-position: center;
+			//   background-repeat: no-repeat;
+			//   background-size: cover;
+			// }
+		}
+
+		.col-2 {
+
+			.smaller_image {
+				height: 50%;
+				background: url('./cat.png');
+			  background-position: center;
+			  background-repeat: no-repeat;
+			  background-size: cover;
+				border: 2px solid red;
+			}
+		}
+
+		.col-3 {
+
+			.bigger_image {
+				// width: 100%;
+				// height: 370px;
+				border: 2px solid red;
+				height: 50%;
+				background: url('./building.png');
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: auto;
+			}
+		}
+
+		.col-4 {
+			text-transform: uppercase;
+			width: 150px;
+
+			ul {
+				margin-top: 90px;
+
+				li {
+					list-style: none;
+
+					a {
+						text-decoration: none;
+						color: #737373;
+						font-size: 10px;
+						font-weight: bold;
+						line-height: 45px;
+
+						&:hover {
+							color: #B0B0B0;
+						}
+					}
+				}
+			}
 		}
 
 	}

@@ -7,18 +7,22 @@ class Services extends Component {
 			<div className='services_main_box main_box'>
 				<div className='container'>
 					<div className='uppercase hero_text'>
-						<h3 className=''>Services</h3>
+						<h3>Services</h3>
 						<ul>
-							<li>Industrial design</li>
-							<li>Web design</li>
-							<li>Photography</li>
+							<li><a href='/'> Industrial design </a></li>
+							<li><a href='/'> Web design </a></li>
+							<li><a href='/'> Photography </a></li>
 						</ul>
 					</div>
-					<div className='services_description'>
-						<h4>Photography</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel lorem ante. Quisque pulvinar enim vitae hendrerit venenatis.</p>
+					<div className='service_description'>
+						<span>P</span>
+						<div className='service_box'>
+							<h4 className='uppercase'>Photography</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel lorem ante. Quisque pulvinar enim.</p>
+						</div>
 					</div>
 				</div>
+				<span className='services_text'>Serv</span>
 			</div>
 		);
 	}
