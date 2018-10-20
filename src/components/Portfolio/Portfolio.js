@@ -9,13 +9,16 @@ class Portfolio extends Component {
 					<h3 className='uppercase'>Portfolio</h3>
 					<div className='portfolio_row'>
 						<div className='portfolio_col-1-4 col-1'>
-							<div className="smaller_image"></div>
+							<div className="machine_image"></div>
 						</div>
 						<div className='portfolio_col-1-4 col-2'>
-							<div className="smaller_image"></div>
+							<div className="cat_image"></div>
+							<span>Coffee cup</span>
+							<p>Vivamus sagittis lacus veu augue laoreet rutrum faucibus dolor auctor.</p>
+							<div className='chain'></div>
 						</div>
 						<div className='portfolio_col-1-4 col-3'>
-							<div className="bigger_image"></div>
+							<div className="building_image"></div>
 						</div>
 						<div className='portfolio_col-1-4 col-4'>
 							<ul>
@@ -23,14 +26,19 @@ class Portfolio extends Component {
 								<li><a href='/'> Web design </a></li>
 								<li><a href='/'> Photography </a></li>
 							</ul>
-							<span></span>
+							<div className='dots'>
+								<span className='dot'></span>
+								<span className='dot'></span>
+								<span className='dot'></span>
+								<span className='dot'></span>
+							</div>
 						</div>
 					</div>
 				</div>
+				<span className='portfolio_letter'>P</span>
 			</div>
 		);
 	}
-
 }
 
 export default Portfolio;

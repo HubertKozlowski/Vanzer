@@ -35,7 +35,6 @@
 		.portfolio_col-1-4 {
 			flex-grow: 1;
 			height: 100%;
-			border: 1px solid black;
 			margin: 0 15px;
 		}
 
@@ -46,39 +45,62 @@
 		}
 
 		.col-1 {
-
-			// .smaller_image {
-			// 	// width: 100%;
-			// 	// height: 200px;
-			// 	height: 100%;
-			// 	background: url('./machine.png');
-			//   background-position: center;
-			//   background-repeat: no-repeat;
-			//   background-size: cover;
-			// }
-		}
-
-		.col-2 {
-
-			.smaller_image {
-				height: 50%;
-				background: url('./cat.png');
+			.machine_image {
+				margin-top: 90px;
+				height: 200px;
+				background: url('./machine.png');
 			  background-position: center;
 			  background-repeat: no-repeat;
 			  background-size: cover;
-				border: 2px solid red;
 			}
 		}
 
-		.col-3 {
+		.col-2 {
+			text-align: center;
 
-			.bigger_image {
-				// width: 100%;
-				// height: 370px;
-				border: 2px solid red;
+			.cat_image {
 				height: 50%;
+				background: url('./cat.png');
+			  background-position: 85% 100%;
+			  background-repeat: no-repeat;
+			  background-size: cover;
+				margin-bottom: 30px;
+			}
+
+			span {
+				font-size: 10px;
+				text-transform: uppercase;
+				color: #FFF;
+				font-weight: bold;
+			}
+
+			p {
+				margin-top: 16px;
+				font-size: 8px;
+				font-weight: bold;
+				color: #8D8D8D;
+				line-height: 15px;
+			}
+		}
+
+		.chain {
+			height: 50px;
+			width: 50px;
+			border-radius: 50%;
+			margin: 40px auto;
+			background: url('./chain.png');
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: auto;
+			background-color: #FFF;
+		}
+
+		.col-3 {
+			.building_image {
+				margin-top: 90px;
+				height: 308px;
 				background: url('./building.png');
-				background-position: center;
+				background-position: 45% 50%;
 				background-repeat: no-repeat;
 				background-size: auto;
 			}
@@ -87,9 +109,10 @@
 		.col-4 {
 			text-transform: uppercase;
 			width: 150px;
+			z-index: 3;
 
 			ul {
-				margin-top: 90px;
+				margin-top: 75px;
 
 				li {
 					list-style: none;
@@ -107,8 +130,35 @@
 					}
 				}
 			}
+
+			.dots {
+				display: flex;
+				margin-top: 175px;
+				margin-left: -20px;
+				.dot {
+					border-radius: 50%;
+					width: 10px;
+					height: 10px;
+					background: #999999;
+					margin-left: 20px;
+
+				}
+				&:first-child {
+					margin-left: 0px;
+				}
+			}
 		}
 
+	}
+
+	.portfolio_letter {
+		position: relative;
+		font-size: 520px;
+		font-weight: 700;
+		display: inline-block;
+		left: 72%;
+		bottom: 680px;
+		color: rgba(#47494a, 0.5);
 	}
 
 }

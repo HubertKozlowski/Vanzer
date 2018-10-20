@@ -1,11 +1,79 @@
 .blog_main_box {
+padding-top: 160px;
 
 	.blog_image {
-		height: 324px;
-		width: 464px;
+		height: 325px;
+		width: 90%;
 	  background-repeat: no-repeat;
 	  background-size: cover;
 		background-image: url(./street.png);
 		background-position: center;
+		margin-left: -90px;
+	}
+
+	.hero_text {
+
+		h3 {
+			font-size: 30px;
+			letter-spacing: 15px;
+			color: #313131;
+			margin-left: 15px;
+
+			&:after {
+				content:"";
+				position: relative;
+				width: 300px;
+				border: 1px solid #EC5228;
+				display: block;
+				top: 33px;
+			}
+		}
+	}
+
+	.content {
+		display: flex;
+		margin-top: 100px;
+	}
+
+	.content_text_left {
+		margin-left: 30px;
+		width: 310px;
+		padding-top: 140px;
+
+		span {
+			font-size: 9px;
+			font-weight: bold;
+			color: #8D8D8D;
+			line-height: 15px;
+			letter-spacing: normal;
+		}
+	}
+
+	.content_text_left h5 {
+		font-size: 20px;
+	}
+
+	.content_text_right {
+		margin-left: 20px;
+		width: 330px;
+		float: right;
+		padding-top: 60px;
+
+		span {
+			font-size: 9px;
+			font-weight: bold;
+			color: #8D8D8D;
+			line-height: 15px;
+			letter-spacing: normal;
+		}
+
+		hr {
+			margin: 30px 0;
+			color: #8D8D8D;
+		}
+	}
+
+	.content_text_right h5 {
+		font-size: 16px;
 	}
 }
