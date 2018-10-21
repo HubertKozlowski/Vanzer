@@ -1,164 +1,160 @@
 .portfolio_main_box {
-	background:
-		linear-gradient(
-	      rgba(27.5, 27.5, 27.5, 0.8),
-	      rgba(27.5, 27.5, 27.5, 0.8)
-	    ),
-		url('./bridge.png');
+  background: linear-gradient(
+      rgba(27.5, 27.5, 27.5, 0.8),
+      rgba(27.5, 27.5, 27.5, 0.8)
+    ),
+    url("./bridge.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-	padding-top: 180px;
+  padding-top: 180px;
 
-	h3 {
-		font-size: 30px;
-		letter-spacing: 15px;
-		color: #F7F7F7;
-		margin-left: 15px;
+  h3 {
+    font-size: 30px;
+    letter-spacing: 15px;
+    color: #f7f7f7;
+    margin-left: 15px;
 
-		&:after {
-			content:"";
-			position: relative;
-		  width: 300px;
-		  border: 1px solid #EC5228;
-		  display: block;
-			top: 33px;
-		}
-	}
+    &:after {
+      content: "";
+      position: relative;
+      width: 300px;
+      border: 1px solid #ec5228;
+      display: block;
+      top: 33px;
+    }
+  }
 
-	.portfolio_row {
-		height: 400px;
-		display: flex;
-		justify-content: space-between;
-		margin-top: 77px;
+  .portfolio_row {
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 77px;
 
-		.portfolio_col-1-4 {
-			flex-grow: 1;
-			height: 100%;
-			margin: 0 15px;
-		}
+    .portfolio_col-1-4 {
+      flex-grow: 1;
+      height: 100%;
+      margin: 0 15px;
+    }
 
-		.col-1,
-		.col-2,
-		.col-3 {
-			width: 200px;
-		}
+    .col-1,
+    .col-2,
+    .col-3 {
+      width: 200px;
+    }
 
-		.col-1 {
-			.machine_image {
-				margin-top: 90px;
-				height: 200px;
-				background: url('./machine.png');
-			  background-position: center;
-			  background-repeat: no-repeat;
-			  background-size: cover;
-			}
-		}
+    .col-1 {
+      .machine_image {
+        margin-top: 90px;
+        height: 200px;
+        background: url("./machine.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    }
 
-		.col-2 {
-			text-align: center;
+    .col-2 {
+      text-align: center;
 
-			.cat_image {
-				height: 50%;
-				background: url('./cat.png');
-			  background-position: 85% 100%;
-			  background-repeat: no-repeat;
-			  background-size: cover;
-				margin-bottom: 30px;
-			}
+      .cat_image {
+        height: 50%;
+        background: url("./cat.png");
+        background-position: 85% 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 30px;
+      }
 
-			span {
-				font-size: 10px;
-				text-transform: uppercase;
-				color: #FFF;
-				font-weight: bold;
-			}
+      span {
+        font-size: 10px;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: bold;
+      }
 
-			p {
-				margin-top: 16px;
-				font-size: 8px;
-				font-weight: bold;
-				color: #8D8D8D;
-				line-height: 15px;
-			}
-		}
+      p {
+        margin-top: 16px;
+        font-size: 8px;
+        font-weight: bold;
+        color: #8d8d8d;
+        line-height: 15px;
+      }
+    }
 
-		.chain {
-			height: 50px;
-			width: 50px;
-			border-radius: 50%;
-			margin: 40px auto;
-			background: url('./chain.png');
-			background-position: center;
-			background-repeat: no-repeat;
-			background-size: auto;
-			background-color: #FFF;
-		}
+    .chain {
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      margin: 40px auto;
+      background: url("./chain.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: auto;
+      background-color: #fff;
+    }
 
-		.col-3 {
-			.building_image {
-				margin-top: 90px;
-				height: 308px;
-				background: url('./building.png');
-				background-position: 45% 50%;
-				background-repeat: no-repeat;
-				background-size: auto;
-			}
-		}
+    .col-3 {
+      .building_image {
+        margin-top: 90px;
+        height: 308px;
+        background: url("./building.png");
+        background-position: 45% 50%;
+        background-repeat: no-repeat;
+        background-size: auto;
+      }
+    }
 
-		.col-4 {
-			text-transform: uppercase;
-			width: 150px;
-			z-index: 3;
+    .col-4 {
+      text-transform: uppercase;
+      width: 150px;
+      z-index: 3;
 
-			ul {
-				margin-top: 75px;
+      ul {
+        margin-top: 75px;
 
-				li {
-					list-style: none;
+        li {
+          list-style: none;
 
-					a {
-						text-decoration: none;
-						color: #737373;
-						font-size: 10px;
-						font-weight: bold;
-						line-height: 45px;
+          a {
+            text-decoration: none;
+            color: #737373;
+            font-size: 10px;
+            font-weight: bold;
+            line-height: 45px;
 
-						&:hover {
-							color: #B0B0B0;
-						}
-					}
-				}
-			}
+            &:hover {
+              color: #b0b0b0;
+            }
+          }
+        }
+      }
 
-			.dots {
-				display: flex;
-				margin-top: 175px;
-				margin-left: -20px;
-				.dot {
-					border-radius: 50%;
-					width: 10px;
-					height: 10px;
-					background: #999999;
-					margin-left: 20px;
+      .dots {
+        display: flex;
+        margin-top: 175px;
+        margin-left: -20px;
+        .dot {
+          border-radius: 50%;
+          width: 10px;
+          height: 10px;
+          background: #999999;
+          margin-left: 20px;
+        }
+        &:first-child {
+          margin-left: 0px;
+        }
+      }
+    }
+  }
 
-				}
-				&:first-child {
-					margin-left: 0px;
-				}
-			}
-		}
-
-	}
-
-	.portfolio_letter {
-		position: relative;
-		font-size: 520px;
-		font-weight: 700;
-		display: inline-block;
-		left: 72%;
-		bottom: 680px;
-		color: rgba(#47494a, 0.5);
-	}
-
+  .portfolio_letter {
+    position: relative;
+    font-size: 520px;
+    font-weight: 700;
+    display: inline-block;
+    left: 72%;
+    bottom: 680px;
+    color: rgba(#47494a, 0.5);
+  }
 }

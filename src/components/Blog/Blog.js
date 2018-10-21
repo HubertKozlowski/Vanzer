@@ -12,8 +12,8 @@ class Blog extends Component {
 					<div className='content'>
 						<div className='blog_image'></div>
 						<div className='content_text_left'>
-								<h4 className='uppercase'>Ridiculus fring illa vulputate</h4>
-								<span>Photography / Today / by Crophis</span>
+							<h4 className='uppercase'>Ridiculus fring illa vulputate</h4>
+							<span>Photography / Today / by Crophis</span>
 						</div>
 						<div className='content_text_right'>
 							<h5 className='uppercase'>Quam sit ridiculus</h5>
@@ -23,6 +23,7 @@ class Blog extends Component {
 							<span>Photography / June. 18. 2016 / by Michael Doe</span>
 						</div>
 					</div>
+					<span className='uppercase blog_background_text'>Blo</span>
 				</div>
 			</div>
 		);
