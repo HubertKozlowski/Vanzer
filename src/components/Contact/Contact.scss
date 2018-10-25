@@ -12,11 +12,14 @@
     background-repeat: no-repeat;
     padding-top: 160px;
 
+    .cnt {
+      margin-left: 315px;
+    }
+
     h3 {
       font-size: 30px;
       letter-spacing: 15px;
       color: #fff;
-      margin-left: 315px;
       margin-bottom: 190px;
 
       &:after {
@@ -31,17 +34,25 @@
 
     h5 {
       color: #a5a6a6;
-      margin-left: 400px;
+      margin-left: 85px;
       margin-bottom: 12px;
       font-weight: bold;
     }
 
     span {
       color: #7e7f7f;
-      margin-left: 400px;
+      margin-left: 85px;
       display: inline-block;
       font-size: 10px;
       font-weight: bold;
+    }
+
+    .footer {
+      font-size: 8px;
+      letter-spacing: normal;
+      margin-top: 100px;
+      margin-left: 0;
+      color: #7e7f7f;
     }
 
     .contact_email,
@@ -164,11 +175,5 @@
     position: relative;
     left: 250px;
     top: 135px;
-  }
-
-  .footer {
-    font-size: 8px;
-    letter-spacing: normal;
-    margin-top: 100px;
   }
 }
