@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/Vanzer/static/media/building.1a3f53d8.png"
   },
   {
-    "revision": "4735935cb0d15bb920a4",
-    "url": "/Vanzer/static/css/main.1e57faf8.chunk.css"
+    "revision": "0ab3dab45f68485a8a29",
+    "url": "/Vanzer/static/css/main.91852ef0.chunk.css"
   },
   {
     "revision": "4fd91c74e51506835aa9",
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/Vanzer/static/media/laptop.6c2f7173.png"
   },
   {
-    "revision": "4735935cb0d15bb920a4",
-    "url": "/Vanzer/static/js/main.4735935c.chunk.js"
+    "revision": "0ab3dab45f68485a8a29",
+    "url": "/Vanzer/static/js/main.0ab3dab4.chunk.js"
   },
   {
     "revision": "6859d08e419761781693cb168576e215",
@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/Vanzer/static/media/welcome.1ad7f242.png"
   },
   {
-    "revision": "474ab3c123f73e01fba988a289bff796",
+    "revision": "c74423f0b25ae2e5847aaa2440c2a61d",
     "url": "/Vanzer/index.html"
   }
 ];
