@@ -1,6 +1,46 @@
 import React, { Component } from "react";
 
 class Contact extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      name: "",
+      email: "",
+      title: "",
+      msg: ""
+    };
+  }
+
+  handleNameChange = event => {
+    this.setState({
+      name: event.target.value
+    });
+  };
+
+  handleEmailChange = event => {
+    this.setState({
+      email: event.target.value
+    });
+  };
+
+  handleMsgChange = event => {
+    this.setState({
+      msg: event.target.value
+    });
+  };
+
+  handleTitleChange = event => {
+    this.setState({
+      title: event.target.value
+    });
+  };
+
+  handleSubmit = event => {
+    event.preventDefault();
+    console.log("click");
+  };
+
   render() {
     return (
       <div className="contact_main_box main_box">
@@ -26,7 +66,7 @@ class Contact extends Component {
         </div>
         <div className="contact_right">
           <div className="map_gps" />
-          <form className="form">
+          <form className="form" onSubmit={this.handleSubmit}>
             <div className="form-row">
               <label htmlFor="name" className="visuallyhidden">
                 Your Name
@@ -36,6 +76,8 @@ class Contact extends Component {
                 id="name"
                 name="name"
                 placeholder="Your Name"
+                value={this.state.name}
+                onChange={this.handleNameChange}
               />
               <label htmlFor="email" className="visuallyhidden">
                 Your E-mail
@@ -45,6 +87,8 @@ class Contact extends Component {
                 id="email"
                 name="email"
                 placeholder="Your E-Mail"
+                value={this.state.email}
+                onChange={this.handleEmailChange}
               />
             </div>
             <div className="form-row">
@@ -56,15 +100,27 @@ class Contact extends Component {
                 id="topic"
                 name="topic"
                 placeholder="Your Topic"
+                value={this.state.title}
+                onChange={this.handleTitleChange}
               />
             </div>
             <div className="form-row">
               <label htmlFor="message" className="visuallyhidden">
                 Message
               </label>
-              <textarea id="message" name="message" placeholder="Message" />
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Message"
+                value={this.state.msg}
+                onChange={this.handleMsgChange}
+              />
             </div>
-            <button type="submit" className="submit_btn uppercase">
+            <button
+              type="submit"
+              value="Submit"
+              className="submit_btn uppercase"
+            >
               Send message
             </button>
           </form>
